@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+    <div class="login-form">
+        <form method="post" action="signupaction.php">
+            <h1><span>Sign</span> Up</h1>
+            <div class="content">
+                <div class="input" >
+                    <input type="email" placeholder="Enter Email" id="input1" name="email">
+                </div>
+                <div class="input" >
+                    <input type="password" placeholder="Enter Password" id="input2" name="password">
+                </div>
+                <div class="action">
+                    <a href="signup.html"><button id="btn1">Sign up</button></a>
+                   <a href="signin.html"><button id="btn2">Sign in</button></a>
+                </div>
+            </div>
+        </form>
+
+
+    </div>
+    <script>
+        let input1 = document.getElementById('input1');
+        let input2 = document.getElementById('input2');
+
+        input1.onfocus=function(){
+            input1.style.border = '2px darkorange solid';
+            input1.style.outline = 'none';
+        }
+        input2.onfocus=function(){
+            input2.style.border = '2px darkorange solid';
+            input2.style.outline = 'none';
+        }
+        input1.onblur=function(){
+            input1.style.border = '1px solid #ccc';
+        }
+        input2.onblur=function(){
+            input2.style.border = '1px solid #ccc';
+        }
+    </script>
+</body>
+</html>

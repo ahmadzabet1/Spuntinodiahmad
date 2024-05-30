@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .login-form{
+    position: relative;
+    top: 60px;
+  }
+  h1{
+    text-align: center;
+  }
+  input{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  span{
+    color: orange;
+  }
+  .action a{
+    padding-left: 10px;
+  }
+  #btn1{
+    background-color: black;
+    border-radius: 5px;
+    margin-right: 5px;
+    color: white;
+    padding: 20px;
+  }
+  #btn2{
+    background-color: darkorange ;
+    border-radius: 5px;
+    margin-right: 5px;
+    color: white;
+    padding: 20px;
+  }
+  .action{
+    position: relative;
+    left: 100px;
+  }
+  .input input{
+    width: 270px;
+  }
+  .input{
+    position: relative;
+    bottom: 18px;
+  }
+  #btn1:hover{
+    transform: scale(1.01);
+    transition: 0.4s;
+  }
+  #btn2:hover{
+    transform: scale(1.01);
+    transition: 0.4s;
+  }
+  #btn2{
+    background-color: darkorange;
+    border-radius: 5px;
+    color: white;
+  }
+  body {
+    background: #ffeae0;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .login-form {
+    background: #fff;
+    width: 500px;
+    margin: 65px auto;
+   
+    display: flex;
+            flex-direction: column;
+    border-radius: 4px;
+  }
+  .login-form h1 {
+    padding: 35px 35px 0 35px;
+    font-weight: 300;
+  }
+  .login-form .content {
+    padding: 35px;
+    text-align: center;
+  }
+  .login-form .input-field {
+    padding: 12px 5px;
+  }
+  .login-form .input-field input {
+    font-size: 16px;
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    padding: 10px 1px;
+    border: 0;
+    border-bottom: 1px solid ;
+    border-color: grey;
+    outline: none;
+    
+  }
+  .login-form a.link {
+    text-decoration: none;
+    color: #747474;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .login-form .action {
+    display: -webkit-box;
+    display: flex;
+            flex-direction: row;
+  }
+  .login-form .action button {
+    width: 100%;
+    border: none;
+    padding: 18px;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #e8e9ec;
+    color: #777;
+    
+  }
+  .login-form .action button:hover {
+    background: #d8d8d8;
+  }
+  .login-form .action button:nth-child(2) {
+    background: #2d3b55;
+    color: #fff;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 4px;
+  }
+  .login-form .action button:nth-child(2):hover {
+    background: #3c4d6d;
+  }
